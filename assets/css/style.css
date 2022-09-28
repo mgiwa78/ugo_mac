@@ -163,7 +163,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   background: var(--white);
   padding-block: 20px;
   box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.05);
@@ -230,7 +230,7 @@ body {
 
 .hero-title {
   margin-bottom: 25px;
-  width: 450px;
+  width: 80vw;
 }
 
 .hero-text {
@@ -536,7 +536,6 @@ body {
 }
 
 .contact {
-  padding-block: var(--section-padding);
   background: var(--ghost-white-1);
 }
 
@@ -570,7 +569,9 @@ body {
   border: 1px solid hsla(244, 17%, 67%, 0.3);
   border-radius: 4px;
 }
-
+.push-btm {
+  margin-bottom: 30px;
+}
 .contact .input-field:focus {
   outline: none;
   background: var(--ghost-white-2);
